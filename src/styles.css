@@ -1,0 +1,140 @@
+/*== NAVBAR STYLES ==*/
+.nav-container{
+    box-shadow: 0px 3px 7.6px rgba(0, 0, 0, 0.1);
+    height: 5rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+}
+.nav-img{
+    max-width: 200px;
+}
+
+/*== HERO SECTION STYLES ==*/
+.hero-container{
+    padding: 1rem;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+}
+.hero-img{
+    padding: 3em 0 2em 0;
+    margin: 0 auto;
+    border-radius: 25rem;
+    margin-bottom: 5rem;
+    width: 100%;
+}
+@media (min-width: 768px) {
+    .hero-img{
+        max-width: 80%;
+    }
+}
+@media (min-width: 768px) {
+    .hero-content{
+        padding: 0 3rem;
+    }
+}
+@media (min-width: 768px) {
+    .hero-content-header{
+        line-height: .3px;
+    }
+}
+.hero-content-text{
+    font-size: 1.4rem;
+    color: #888;
+}
+
+/*== FOOTER SECTION STYLES ==*/
+.footer-container{
+    background: #ebebeb;
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 1.3rem;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    margin-top: 3rem;
+}
+.footer-content{
+    font-weight: 400;
+    margin: 0;
+    color: #2c4a59;
+}
+.footer-link{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #757d81;
+}
+
+/*== Cards ==*/
+.cards-container{
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: none;
+    gap: 1.75em;
+    padding: 1.5rem;
+    margin: 5rem 0;
+}
+.cards-container::-webkit-scrollbar{display: none;}
+.cards-container::-ms-scrollbar{display: none;}
+.cards-container::-moz-scrollbar{display: none;}
+@media (min-width: 1100px) {
+    .cards-container{
+        justify-content: center;
+        align-items: center;
+    }
+}
+.card{position: relative;}
+@media (max-width: 468px){
+    .card{
+        min-width: 170px;
+    }
+}
+.card-img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: right;
+    border-radius: 1rem;
+}
+.card-stats{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 18px;
+    padding: 1rem 0;
+}
+.card-star-img{
+    width: 1.1rem;
+}
+.card-header{
+    margin: 0;
+    font-size: 1.2em;
+}
+.card-price{
+    font-weight: 600;
+    color: #474747;
+}
+
+@media (min-width: 568px) {
+    .card>img{
+        width: 350px;
+    }
+}
+
+.card-badge{
+    position: absolute;
+    padding: .75rem 1rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    color: #111;
+    font-weight: 800;
+    margin: 1rem;
+}
+
+.card-badge.online{
+    background-color: red;
+    color: white;
+}
