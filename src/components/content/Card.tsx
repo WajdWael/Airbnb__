@@ -1,5 +1,5 @@
 import data from '../../data'
-import stars from '../../assets/images/star.png'
+import stars from '/public/star.png'
 
 export default function Card() {
     const cards = data.map(item => {
@@ -17,7 +17,7 @@ export default function Card() {
                 badgeText &&
                 <div className={`card-badge ${addclass}`}>{badgeText}</div>
             }
-            <img className='card-img' src={`/assets/${item.image}`} alt={item.alt} />
+            <img className='card-img' src={`/public/${item.image}`} alt={item.alt} />
             <div className="card-stats">
                 <img src={stars} alt="Star" className='card-star-img' />
                 <span>{item.stats.rating}</span>

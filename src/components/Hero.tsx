@@ -1,4 +1,4 @@
-import gridImage from '../assets/images/grid.png'
+import gridImage from '/public/grid.png'
 
 export default function Hero() {
     return <main className='hero-container'>

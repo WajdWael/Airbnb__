@@ -1,4 +1,4 @@
-import aribinLogo from '../assets/images/airbnb-logo.png'
+import aribinLogo from '/public/airbnb-logo.png'
 
 export default function Navbar() {
     return <nav className='nav-container'>

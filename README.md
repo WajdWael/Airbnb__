@@ -196,7 +196,7 @@ export default function Card() {
                 badgeText &&
                 <div className={`card-badge ${addclass}`}>{badgeText}</div>
             }
-            <img className='card-img' src={`/src/assets/images/${item.image}`} alt={item.alt} />
+            <img className='card-img' src={`/public/${item.image}`} alt={item.alt} />
             <div className="card-stats">
                 <img src={stars} alt="Star" className='card-star-img' />
                 <span>{item.stats.rating}</span>
