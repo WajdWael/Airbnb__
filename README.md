@@ -1,5 +1,10 @@
 # React Airbnb clone
 
+
+![image](https://github.com/WajdWael/Airbnb__/assets/81550668/0f849b98-ba1c-4a6c-9b18-62ce9d9424f1)
+[Preview website](https://airbnb-one-amber.vercel.app/)
+
+
 ## Tools 🪄:
    - React 
    - react-dom 
